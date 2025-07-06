@@ -34,6 +34,22 @@ git config --global user.email globalalek@gmail.com
 ```sh
 git config --global http.sslVerify false
 ```
+## git tag
+```
+git push origin v1.0.0
+```
+## отправить все теги
+```
+git push origin --tags
+```
+## проверить их наличие в удалённом репозитории
+```
+git ls-remote --tags original
+```
+## Если вы хотите, чтобы теги автоматически отправлялись при выполнении git push
+```
+git config --global push.followTags true
+```
 настраиваем notepad вместо Vim  
 https://stackoverflow.com/questions/13340329/how-to-save-a-git-commit-message-from-windows-cmd  
 

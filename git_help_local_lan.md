@@ -29,6 +29,7 @@
       ```
    2.2 **локальный клиент, клонируем в текущюю дирр, про точку не забыть)**
       ```sh
+      git clone root@192.168.1.50:repository/newproject
       git clone ~/repository/newproject .
       ```   
 
